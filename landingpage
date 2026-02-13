@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI DealGuard — Pricing Intelligence for Freight Brokerage</title>
+    <meta
+      name="description"
+      content="AI DealGuard is the pricing intelligence layer for freight brokerage—turning subjective bidding into systematic margin expansion."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Subtle background texture without images */
+      .bg-grid {
+        background-image:
+          radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 0);
+        background-size: 22px 22px;
+      }
+    </style>
+  </head>
+
+  <body class="min-h-screen bg-slate-950 text-slate-100 antialiased">
+    <!-- Top Nav -->
+    <header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/70 backdrop-blur">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
+        <div class="flex items-center gap-3">
+          <div class="grid h-9 w-9 place-items-center rounded-xl bg-white/10 ring-1 ring-white/10">
+            <!-- simple mark -->
+            <span class="text-sm font-semibold tracking-tight">DG</span>
+          </div>
+          <div class="leading-tight">
+            <div class="text-sm font-semibold">AI DealGuard</div>
+            <div class="text-xs text-slate-400">Pricing Intelligence</div>
+          </div>
+        </div>
+
+        <nav class="hidden items-center gap-6 text-sm text-slate-300 md:flex">
+          <a class="hover:text-white" href="#problem">Problem</a>
+          <a class="hover:text-white" href="#solution">Solution</a>
+          <a class="hover:text-white" href="#impact">Impact</a>
+          <a class="hover:text-white" href="#gtm">GTM</a>
+          <a class="hover:text-white" href="#pricing">Pricing</a>
+        </nav>
+
+        <div class="flex items-center gap-2">
+          <a
+            href="#demo"
+            class="hidden rounded-xl px-4 py-2 text-sm font-medium text-slate-200 ring-1 ring-white/10 hover:bg-white/5 md:inline-flex"
+            >Partner With Us</a
+          >
+          <a
+            href="#demo"
+            class="inline-flex rounded-xl bg-white px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-slate-100"
+            >Request Demo</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 bg-grid opacity-60"></div>
+      <div class="absolute -top-24 left-1/2 h-72 w-[44rem] -translate-x-1/2 rounded-full bg-indigo-500/20 blur-3xl"></div>
+      <div class="absolute -bottom-40 right-0 h-80 w-80 rounded-full bg-cyan-400/10 blur-3xl"></div>
+
+      <div class="relative mx-auto max-w-6xl px-5 py-16 md:py-24">
+        <div class="max-w-3xl">
+          <div
+            class="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-xs text-slate-300 ring-1 ring-white/10"
+          >
+            <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+            High-velocity wedge → Pricing intelligence platform
+          </div>
+
+          <h1 class="mt-5 text-4xl font-semibold tracking-tight md:text-6xl">
+            The Pricing Intelligence Layer for Freight Brokerage
+          </h1>
+
+          <p class="mt-5 text-lg text-slate-300 md:text-xl">
+            We turn subjective spot bidding into systematic margin expansion—by delivering a
+            <span class="text-white">Target Win Price</span> and a
+            <span class="text-white">Walk-Away Price</span> at the moment of decision.
+          </p>
+
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a
+              href="#demo"
+              class="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-100"
+            >
+              Request Demo
+            </a>
+            <a
+              href="#solution"
+              class="inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold text-slate-100 ring-1 ring-white/15 hover:bg-white/5"
+            >
+              See how it works
+            </a>
+          </div>
+
+          <div class="mt-8 grid gap-3 sm:grid-cols-3">
+            <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+              <div class="text-sm font-semibold">~1% Net Margin Lift</div>
+              <div class="mt-1 text-xs text-slate-400">Small gains compound at scale</div>
+            </div>
+            <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+              <div class="text-sm font-semibold">Zero-Latency Quoting</div>
+              <div class="mt-1 text-xs text-slate-400">Minutes → seconds</div>
+            </div>
+            <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+              <div class="text-sm font-semibold">Human-in-the-Loop</div>
+              <div class="mt-1 text-xs text-slate-400">Augment, don’t automate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem -->
+    <section id="problem" class="mx-auto max-w-6xl px-5 py-14 md:py-18">
+      <div class="grid gap-10 md:grid-cols-2 md:items-start">
+        <div>
+          <h2 class="text-2xl font-semibold tracking-tight md:text-3xl">The Problem: Freight Pricing Is Broken</h2>
+          <p class="mt-4 text-slate-300">
+            Spot freight is a live auction environment. Agents must quote fast while balancing win-rate, margin,
+            carrier volatility, and market swings—usually with incomplete information.
+          </p>
+
+          <div class="mt-6 rounded-2xl bg-white/5 p-5 ring-1 ring-white/10">
+            <div class="text-sm font-semibold text-white">The result is systematic margin leakage.</div>
+            <p class="mt-2 text-sm text-slate-300">
+              Even a $30–$50 misprice per load compounds across thousands of shipments.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid gap-4">
+          <div class="rounded-2xl bg-white/5 p-5 ring-1 ring-white/10">
+            <div class="text-sm font-semibold">Winner’s Curse</div>
+            <p class="mt-2 text-sm text-slate-300">Win the load—then discover the bid was below cost.</p>
+          </div>
+          <div class="rounded-2xl bg-white/5 p-5 ring-1 ring-white/10">
+            <div class="text-sm font-semibold">Quote Latency</div>
+            <p class="mt-2 text-sm text-slate-300">Manual lane research takes 10–15 minutes; the load is gone.</p>
+          </div>
+          <div class="rounded-2xl bg-white/5 p-5 ring-1 ring-white/10">
+            <div class="text-sm font-semibold">Agent Variance</div>
+            <p class="mt-2 text-sm text-slate-300">Two agents quote two prices for the same lane.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution -->
+    <section id="solution" class="border-y border-white/10 bg-white/3">
+      <div class="mx-auto max-w-6xl px-5 py-14 md:py-18">
+        <div class="max-w-3xl">
+          <h2 class="text-2xl font-semibold tracking-tight md:text-3xl">The Solution: AI DealGuard</h2>
+          <p class="mt-4 text-slate-300">
+            AI DealGuard is a pricing copilot embedded in the quoting workflow. It combines prior lane performance,
+            win/loss outcomes, and current market context to produce decision-ready guidance in seconds.
+          </p>
+        </div>
+
+        <div class="mt-10 grid gap-4 md:grid-cols-3">
+          <div class="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10">
+            <div class="text-sm font-semibold">🎯 Target Win Price</div>
+            <p class="mt-2 text-sm text-slate-300">
+              A recommended price that balances margin and win probability.
+            </p>
+          </div>
+          <div class="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10">
+            <div class="text-sm font-semibold">🛑 Walk-Away Price</div>
+            <p class="mt-2 text-sm text-slate-300">
+              A hard floor that prevents negative-margin wins.
+            </p>
+          </div>
+          <div class="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10">
+            <div class="text-sm font-semibold">⚡ Zero-Latency Guidance</div>
+            <p class="mt-2 text-sm text-slate-300">
+              Delivered before the agent hits send—no extra clicks.
+            </p>
+          </div>
+        </div>
+
+        <!-- How it works -->
+        <div class="mt-10 rounded-3xl bg-gradient-to-b from-white/5 to-transparent p-6 ring-1 ring-white/10">
+          <div class="text-sm font-semibold">How it works</div>
+          <div class="mt-4 grid gap-4 md:grid-cols-3">
+            <div class="rounded-2xl bg-white/5 p-5 ring-1 ring-white/10">
+              <div class="text-xs font-semibold text-slate-200">Step 1</div>
+              <div class="mt-1 text-sm font-semibold">Connect your TMS</div>
+              <div class="mt-2 text-sm text-slate-300">Lane, cost, quote, win/loss signals.</div>
+            </div>
+            <div class="rounded-2xl bg-white/5 p-5 ring-1 ring-white/10">
+              <div class="text-xs font-semibold text-slate-200">Step 2</div>
+              <div class="mt-1 text-sm font-semibold">Model + market context</div>
+              <div class="mt-2 text-sm text-slate-300">Seasonality, trend, capacity signals (optional).</div>
+            </div>
+            <div class="rounded-2xl bg-white/5 p-5 ring-1 ring-white/10">
+              <div class="text-xs font-semibold text-slate-200">Step 3</div>
+              <div class="mt-1 text-sm font-semibold">Price guidance in seconds</div>
+              <div class="mt-2 text-sm text-slate-300">Target + walk-away + rationale.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact -->
+    <section id="impact" class="mx-auto max-w-6xl px-5 py-14 md:py-18">
+      <h2 class="text-2xl font-semibold tracking-tight md:text-3xl">Economic Impact</h2>
+      <p class="mt-4 max-w-3xl text-slate-300">
+        Brokerage runs on thin margins. Small improvements scale aggressively across quote volume—turning pricing
+        intelligence into measurable EBITDA.
+      </p>
+
+      <div class="mt-8 grid gap-4 md:grid-cols-4">
+        <div class="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10">
+          <div class="text-xs text-slate-400">Outcome</div>
+          <div class="mt-1 text-lg font-semibold">~1% net lift</div>
+          <div class="mt-2 text-sm text-slate-300">Margin expansion without raising rates.</div>
+        </div>
+        <div class="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10">
+          <div class="text-xs text-slate-400">Outcome</div>
+          <div class="mt-1 text-lg font-semibold">Faster quotes</div>
+          <div class="mt-2 text-sm text-slate-300">Minutes → seconds in live bidding.</div>
+        </div>
+        <div class="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10">
+          <div class="text-xs text-slate-400">Outcome</div>
+          <div class="mt-1 text-lg font-semibold">Less variance</div>
+          <div class="mt-2 text-sm text-slate-300">Standardize pricing across agents.</div>
+        </div>
+        <div class="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10">
+          <div class="text-xs text-slate-400">Outcome</div>
+          <div class="mt-1 text-lg font-semibold">Fewer losses</div>
+          <div class="mt-2 text-sm text-slate-300">Prevent negative-margin wins.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GTM -->
+    <section id="gtm" class="border-y border-white/10 bg-white/3">
+      <div class="mx-auto max-w-6xl px-5 py-14 md:py-18">
+        <h2 class="text-2xl font-semibold tracking-tight md:text-3xl">Go-to-Market</h2>
+        <p class="mt-4 max-w-3xl text-slate-300">
+          Start with mid-market brokers in high-velocity spot markets to validate the pricing intelligence engine.
+          Expand into contract freight and negotiated B2B deal pricing as the platform matures.
+        </p>
+
+        <div class="mt-8 grid gap-4 md:grid-cols-3">
+          <div class="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10">
+            <div class="text-sm font-semibold">Wedge</div>
+            <p class="mt-2 text-sm text-slate-300">Spot market brokerage (high frequency, fast feedback loops).</p>
+          </div>
+          <div class="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10">
+            <div class="text-sm font-semibold">Proof</div>
+            <p class="mt-2 text-sm text-slate-300">Demonstrate margin lift + quote speed with design partners.</p>
+          </div>
+          <div class="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10">
+            <div class="text-sm font-semibold">Platform expansion</div>
+            <p class="mt-2 text-sm text-slate-300">Contract freight → broader negotiated B2B pricing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="mx-auto max-w-6xl px-5 py-14 md:py-18">
+      <div class="grid gap-10 md:grid-cols-2 md:items-start">
+        <div>
+          <h2 class="text-2xl font-semibold tracking-tight md:text-3xl">Pricing</h2>
+          <p class="mt-4 text-slate-300">
+            Enterprise SaaS with high-margin recurring revenue. Pricing scales with agent count and quote volume.
+          </p>
+
+          <ul class="mt-6 space-y-2 text-sm text-slate-300">
+            <li class="flex gap-2">
+              <span class="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+              Starts at <span class="font-semibold text-white">$30,000/year</span>
+            </li>
+            <li class="flex gap-2">
+              <span class="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+              Scales with volume + complexity
+            </li>
+            <li class="flex gap-2">
+              <span class="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+              Annual contracts, design-partner pilots available
+            </li>
+          </ul>
+        </div>
+
+        <div class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+          <div class="text-sm font-semibold">What you get</div>
+          <div class="mt-5 space-y-3">
+            <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+              <div class="text-sm font-semibold">Target Win + Walk-Away pricing</div>
+              <div class="mt-1 text-sm text-slate-300">Instant guidance at the moment of decision.</div>
+            </div>
+            <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+              <div class="text-sm font-semibold">Lane insights & seasonality</div>
+              <div class="mt-1 text-sm text-slate-300">Context without manual research.</div>
+            </div>
+            <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+              <div class="text-sm font-semibold">Onboarding + success reviews</div>
+              <div class="mt-1 text-sm text-slate-300">Track lift, tune model, expand adoption.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Demo (simple form) -->
+    <section id="demo" class="border-t border-white/10 bg-white/3">
+      <div class="mx-auto max-w-6xl px-5 py-14 md:py-18">
+        <div class="grid gap-10 md:grid-cols-2 md:items-start">
+          <div>
+            <h2 class="text-2xl font-semibold tracking-tight md:text-3xl">Request a Demo</h2>
+            <p class="mt-4 text-slate-300">
+              Tell us your lane volume and tools. We’ll show where AI DealGuard can drive margin lift fast.
+            </p>
+
+            <div class="mt-6 rounded-2xl bg-white/5 p-5 text-sm text-slate-300 ring-1 ring-white/10">
+              <div class="font-semibold text-white">Design-partner pilots</div>
+              <p class="mt-1">
+                If you run high-volume spot pricing, we’re looking for early partners to validate lift and iterate quickly.
+              </p>
+            </div>
+          </div>
+
+          <form
+            class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10"
+            onsubmit="event.preventDefault(); alert('Thanks! (Hook this to your form tool: Webflow/Framer/Formspree)');"
+          >
+            <div class="grid gap-4">
+              <div>
+                <label class="text-xs text-slate-300">Name</label>
+                <input
+                  class="mt-1 w-full rounded-xl bg-slate-950/60 px-4 py-3 text-sm text-slate-100 ring-1 ring-white/10 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-white/20"
+                  placeholder="Jane Doe"
+                  required
+                />
+              </div>
+              <div>
+                <label class="text-xs text-slate-300">Work email</label>
+                <input
+                  type="email"
+                  class="mt-1 w-full rounded-xl bg-slate-950/60 px-4 py-3 text-sm text-slate-100 ring-1 ring-white/10 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-white/20"
+                  placeholder="jane@brokerage.com"
+                  required
+                />
+              </div>
+              <div>
+                <label class="text-xs text-slate-300">Company</label>
+                <input
+                  class="mt-1 w-full rounded-xl bg-slate-950/60 px-4 py-3 text-sm text-slate-100 ring-1 ring-white/10 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-white/20"
+                  placeholder="Acme Logistics"
+                  required
+                />
+              </div>
+              <div>
+                <label class="text-xs text-slate-300">Monthly spot quote volume (approx.)</label>
+                <select
+                  class="mt-1 w-full rounded-xl bg-slate-950/60 px-4 py-3 text-sm text-slate-100 ring-1 ring-white/10 focus:outline-none focus:ring-2 focus:ring-white/20"
+                >
+                  <option>0–5,000</option>
+                  <option>5,000–20,000</option>
+                  <option>20,000–100,000</option>
+                  <option>100,000+</option>
+                </select>
+              </div>
+
+              <button
+                type="submit"
+                class="mt-2 inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-100"
+              >
+                Submit
+              </button>
+
+              <p class="text-xs text-slate-400">
+                Tip: connect this to Webflow forms, Framer forms, or Formspree.
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10">
+      <div class="mx-auto max-w-6xl px-5 py-10">
+        <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+          <div class="text-sm text-slate-400">
+            © <span id="year"></span> AI DealGuard. All rights reserved.
+          </div>
+          <div class="flex gap-4 text-sm text-slate-400">
+            <a class="hover:text-slate-200" href="#problem">Problem</a>
+            <a class="hover:text-slate-200" href="#solution">Solution</a>
+            <a class="hover:text-slate-200" href="#demo">Demo</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
